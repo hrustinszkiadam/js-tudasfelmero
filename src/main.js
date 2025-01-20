@@ -5,7 +5,7 @@ const num1 = 5;
 const num2 = 10;
 
 const logIsEven = (eredmeny) => {
-	return isEven(eredmeny) ? 'Páros' : 'Páratlan';
+	return isEven(Math.floor(eredmeny)) ? 'Páros' : 'Páratlan';
 };
 
 const osszeg = osszead(num1, num2);
